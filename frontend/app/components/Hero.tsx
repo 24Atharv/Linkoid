@@ -9,5 +9,11 @@ export default function Hero() {
         </span>
         <span className="mt-10 text-5xl font-medium font-sans text-[#171717]">Turn clicks into revenue</span>
         <span className="w-160 text-2xl text-center text-gray-600 mt-9">Dub is the modern link attribution platform for short links, conversion tracking, and affiliate programs.</span>
+        <div className="flex gap-3 mt-12">
+            <button className="bg-black text-white px-6 py-2 text-sm rounded">Start for free</button>
+            <button className="bg-white px-5 py-2 rounded text-sm text-gray-800 border border-gray-300">Get a demo</button>
+        </div>
+        <div>
+        </div>
     </div>
 }
