@@ -19,5 +19,8 @@ export default function signup() {
             <GoogleAuthButton />
             <GithubAuthButton />
         </div>
+            <span className="mt-5 text-gray-300">Already have an account? <span className="font-semibold text-gray-800">Log in</span></span>
+            <span className="mt-40 text-gray-600">By continuing, you agree to Dub’s Terms of Service and Privacy Policy</span>
     </div>
 }
+
