@@ -1,3 +1,6 @@
+import GithubAuthButton from "@/app/Buttons/GithubAuthButton";
+import GoogleAuthButton from "@/app/Buttons/GoogleAuthButton";
+
 export default function signup() {
     return <div className="min-h-screen bg-white text-black flex flex-col items-center">
         <span className="mt-8 font-semibold text-3xl font-sans">Linkoid</span>
@@ -12,11 +15,9 @@ export default function signup() {
         <span>OR</span>
         <hr className="w-34" />
         </div>
-        <div>
-            <span>
-                
-            </span>
-            <span></span>
+        <div className="gap-3 flex flex-col">
+            <GoogleAuthButton />
+            <GithubAuthButton />
         </div>
     </div>
 }
