@@ -1,3 +1,5 @@
+import Bar from "./Bar";
+
 export default function Hero() {
     return <div className="flex flex-col items-center mt-10 text-black">
         <span className="text-black flex gap-1 px-6 py-1 rounded-2xl border border-gray-300 w-fit items-center">
@@ -33,5 +35,6 @@ export default function Hero() {
                 Affilate Programs
             </span>
         </div>
+        <Bar />
     </div>
 }
